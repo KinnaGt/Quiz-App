@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 
+import 'home.dart';
+
 void main() {
   runApp(const MyApp());
 }
@@ -10,11 +12,11 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Quizz app',
+      title: 'Quiz app',
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: const Text('Base'),
+      home: const Home()
     );
   }
 }
