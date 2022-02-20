@@ -1,4 +1,4 @@
-# Quiz app
+Quiz app
 
 Quiz app developed in flutter for understand the basic of flutter and dart .Widgets,Stateless,Stateful,Layouts,Good Practices.
 
